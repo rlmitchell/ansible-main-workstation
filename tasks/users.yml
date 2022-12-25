@@ -11,3 +11,11 @@
     group: root
     mode:  0440
 
+- name: rob sudoer
+  copy:
+    src: files/sudoers_rob
+    dest: /etc/sudoers.d/rob
+    owner: root
+    group: root
+    mode:  0440
+
