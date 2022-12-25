@@ -6,4 +6,5 @@
       - ffmpeg
       - mpv
       - smplayer
+      - cryptsetup
 
