@@ -3,11 +3,14 @@
   become: true
 
   tasks:
-  - name: htop
+  - name: install packages
     apt:
-      name: htop 
+      name:
+        - htop 
+        - nomacs
+        - ffmpeg
+        - mpv
+        - smplayer
 
-  - name: nomacs
-    apt:
-      name: nomacs
+
 
