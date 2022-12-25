@@ -2,11 +2,11 @@
   connection: local  #-don't use ssh
   become: true
 
-  pre_tasks:
-    - name: apt update
-      apt:
-        update_cache: yes
-      changed_when: False
+#  pre_tasks:
+#    - name: apt update
+#      apt:
+#        update_cache: yes
+#      changed_when: False
 
   tasks:
     - include: tasks/packages.yml
