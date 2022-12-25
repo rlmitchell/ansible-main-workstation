@@ -1,0 +1,13 @@
+- hosts: localhost
+  connection: local  #-don't use ssh
+  become: true
+
+  tasks:
+  - name: htop
+    apt:
+      name: htop 
+
+  - name: nomacs
+    apt:
+      name: nomacs
+
