@@ -1,14 +1,9 @@
-- hosts: localhost
-  connection: local  #-don't use ssh
-  become: true
-
-  tasks:
-  - name: install packages
-    apt:
-      name:
-        - htop 
-        - nomacs
-        - ffmpeg
-        - mpv
-        - smplayer
+- name: install packages
+  apt:
+    name:
+      - htop 
+      - nomacs
+      - ffmpeg
+      - mpv
+      - smplayer
 
