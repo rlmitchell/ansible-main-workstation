@@ -7,4 +7,5 @@
       - mpv
       - smplayer
       - cryptsetup
+      - mdadm
 
