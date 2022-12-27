@@ -11,5 +11,6 @@
   tasks:
     - include: tasks/packages.yml
     - include: tasks/users.yml
+    - include: tasks/config_files.yml
     - include: tasks/script_files.yml
 
