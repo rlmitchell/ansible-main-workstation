@@ -1,0 +1,8 @@
+- name: /etc/netplan/01-network-manager-all.yaml
+  copy:
+    src:   files/netplan.01-network-manager-all.yaml
+    dest:  /etc/netplan/01-network-manager-all.yaml
+    owner: root
+    group: root
+    mode:  0644
+
